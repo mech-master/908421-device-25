@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Девайс</title>
-		<link rel="stylesheet" type="text/css" href="css/wrappers.css"><!--  -->
+		<!--<link rel="stylesheet" type="text/css" href="css/wrappers.css">  -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 
 		<div class="page-wrapper">
-			<div class="center-wrapper">
+			<div class="center-wrapper header-wrapper">
 				<header class="page-header">
 					<div class="logotype-wrapper">
 						<a class="site-header-logotype">
@@ -42,9 +42,7 @@
 					<div class="site-menu">
 						<div class="catalog-wrapper">
 							<a href="catalog.html" class="catalog-list-conrol">Каталог товаров</a>
-						</div>
 
-						<div class="dropdown-categories-wrapper">
 							<div class="dropdown-list">
 								<nav class="site-navigation">
 									<ul class="cameras">
@@ -62,18 +60,18 @@
 								</nav>
 							</div>
 						</div>
-
 						<div class="header-services">
-							<a href="#" class="delivery">Доставка</a>
-							<a href="#" class="guarantee">Гарантия</a>
+							<a href="#" class="header-delivery">Доставка</a>
+							<a href="#" class="header-warrenty">Гарантия</a>
 						</div>
 						
-						<div class="header-contacts">
-							<a href="#" class="contacts">Контакты</a>
+						<div class="header-contacts-wrapper">
+							<a href="#" class="header-contacts">Контакты</a>
 						</div>
 					</div>
 					
 				</header>
+				
 			</div>
 
 			<main class="page-container">
@@ -311,15 +309,17 @@
 
 		<div class="overlay-write-us">
 			<section class="modal modal-write-us">
+				<h2 class="visually-hidden">Напишите нам</h2>
 				<form method="post" action="echo.htmlacademy.ru">
 					<div class="user-data-wrapper">
 						<div class="user-data-column">
-							<label for="imput-user-name">Ваше имя:</label>
+							<label for="input-user-name">Ваше имя:</label>
 							<input type="text" name="user-name" id="input-user-name" class="message-user-name">
 						</div>
 						<div class="user-data-column">
 							<label for="input-user-email">Ваш e-mail:</label>
 							<input type="text" name="user-email" id="input-user-email" class="message-user-email">
+						</div>
 					</div>
 					<div class="message-text-wrapper">
 						<label for="textarea-message-text">Текст письма:</label>
