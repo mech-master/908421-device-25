@@ -429,6 +429,7 @@
 
 				.catalog-list-conrol {
 					position: relative;
+					display: block;
 
 					margin: 0;
 
@@ -503,7 +504,7 @@
 					text-transform: none;
 				}
 
-				.catalog-list-conrol:hover + .dropdown-list {
+				.catalog-wrapper:hover > .dropdown-list {
 					display: block;
 				}
 
