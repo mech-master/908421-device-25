@@ -85,18 +85,18 @@
 							<li><a href="#" class="product-control-item">Слайд №3</a></li>
 						</ul>
 						<ul class="product-slider-container">
-							<li>
-								<div class="slide-image-description active">
+							<li class="product-slide-item active">
+								<div class="slide-image-description">
 									<h3>Делай селфи, как Бен Стиллер!</h3>
-									<p class="category-description">Самая длинная палка для селфи доступна в нашем магазине.Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+									<p class="category-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
 									<a href="#monopod" class="button button-detalization">Подробнее</a>
-									<table class="good-description">
-										<tr class="good-description-header">
+									<table class="product-description">
+										<tr class="product-description-header">
 											<th>Длина палки</th>
 											<th>Вес палки</th>
 											<th>Материал</th>
 										</tr>
-										<tr class="good-description-row">
+										<tr class="product-description-row">
 											<td>8,5 м</td>
 											<td>5 кг</td>
 											<td>Карбон</td>
@@ -107,16 +107,16 @@
 									<img src="img/slider-1.png" alt="Монопод 8,5 метров" width="384" height="486">
 								</div>
 							</li>
-							<li>
+							<li class="product-slide-item ">
 								<div class="slide-image-description">
 									<h3>Худеем правильно!</h3>
 									<p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
 									<a href="#smart-clock" class="button button-detalization">Подробнее</a>
-									<table class="good-description">
-										<tr class="good-description-header">
+									<table class="product-description">
+										<tr class="product-description-header">
 											<th>Без подзарядки</th>
 										</tr>
-										<tr class="good-description-row">
+										<tr class="product-description-row">
 											<td>48 часов</td>
 										</tr>
 									</table>
@@ -125,19 +125,19 @@
 									<img src="img/slider-2.png" alt="Фитнес-браслет" width="345" height="485">
 								</div>
 							</li>
-							<li>
+							<li class="product-slide-item">
 								<div class="slide-image-description">
 									<h3>Порхает как бабочка, жалит как пчела!</h3>
 									<p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
 									<a href="#drone" class="button button-detalization">Подробнее</a>
-									<table class="good-description">
-										<tr class="good-description-header">
-											<th>Дальность полета</th>
-											<th>Радиус поражения`</th>
-										</tr>
-										<tr class="good-description-row">
+									<table class="product-description">
+										<tr class="product-description-row">
 											<td>800 м</td>
 											<td>50 м</td>
+										</tr>
+										<tr class="product-description-header">
+											<th>Дальность полета</th>
+											<th>Радиус поражения`</th>
 										</tr>
 									</table>
 								</div>
@@ -153,48 +153,48 @@
 					<section class="assortment">
 						<h2 class="visually-hidden">Ассортимент нашего магазина</h2>
 						<ul class="assortment-list">
-							<li>
-								<a href="#" class="assortment-item">
+							<li class="assortment-item">
+								<a href="#" class="assortment-button">
 									<span class="image-wrapper">
 										<img src="img/popular-1.svg" alt="Виртуальная реальность" width="97" height="55">
 									</span>
 									<span class="assortment-title">Виртуальная реальность</span>
 								</a>
 							</li>
-							<li>
-								<a href="#" class="assortment-item">
+							<li class="assortment-item">
+								<a href="#" class="assortment-button">
 									<span class="image-wrapper">
 										<img src="img/popular-2.svg" alt="Моноподы для селфи" width="86" height="117">
 									</span>
 									<span class="assortment-title">Моноподы для селфи</span>
 								</a>
 							</li>
-							<li>
-								<a href="#" class="assortment-item">
+							<li class="assortment-item">
+								<a href="#" class="assortment-button">
 									<span class="image-wrapper">
 										<img src="img/popular-3.svg" alt="Экшн-камеры" width="71" height="87">
 									</span>
 									<span class="assortment-title">Экшн-камеры</span>
 								</a>
 							</li>
-							<li>
-								<a href="#" class="assortment-item">
+							<li class="assortment-item">
+								<a href="#" class="assortment-button">
 									<span class="image-wrapper">
 										<img src="img/popular-4.svg" alt="Фитнес-браслеты" width="107" height="65">
 									</span>
 									<span class="assortment-title">Фитнес-браслеты</span>
 								</a>
 							</li>
-							<li>
-								<a href="#" class="assortment-item">
+							<li class="assortment-item">
+								<a href="#" class="assortment-button">
 									<span class="image-wrapper">
 										<img src="img/popular-5.svg" alt="Умные часы" width="56" height="98">
 									</span>
 									<span class="assortment-title">Умные часы</span>
 								</a>
 							</li>
-							<li>
-								<a href="#" class="assortment-item">
+							<li class="assortment-item">
+								<a href="#" class="assortment-button">
 									<span class="image-wrapper">
 										<img src="img/popular-6.svg" alt="Квадрокоптеры" width="132" height="69">
 									</span>
@@ -205,29 +205,37 @@
 					</section>
 				</div>
 
-				<div class="center-wrapper services-wrapper">
-					<section class="services">
-						<h2 class="visually-hidden">Предоставляемые услуги нашего магазина</h2>
-						<ul class="service-control">
-							<li><button type="button" class="service-button button-delivery">Доставка</button></li>
-							<li><button type="button" class="service-button button-warrenty">Гарантия</button></li>
-							<li><button type="button" class="service-button button-credit">Кредит</button></li>
-						</ul>
-						<ul>
-							<li>
-								<h3>Доставка</h3>
-								<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-							</li>
-							<li>
-								<h3>Гарантия</h3>
-								<p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-							</li>
-							<li>
-								<h3>Кредит</h3>
-								<p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
-							</li>
-						</ul>
-					</section>
+				<div class="services-wrapper">
+					<div class="center-wrapper">
+						<section class="services-container">
+							<h2 class="visually-hidden">Предоставляемые услуги нашего магазина</h2>
+							<ul class="service-control">
+								<li class="service-control-item active">
+									<button type="button" class="service-button button-delivery">Доставка</button>
+								</li>
+								<li class="service-control-item">
+									<button type="button" class="service-button button-warrenty">Гарантия</button>
+								</li>
+								<li class="service-control-item">
+									<button type="button" class="service-button button-credit">Кредит</button>
+								</li>
+							</ul>
+							<ul class="services-content">
+								<li class="services-content-item service-delivery ">
+									<h3>Доставка</h3>
+									<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+								</li>
+								<li class="services-content-item service-warranty active">
+									<h3>Гарантия</h3>
+									<p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+								</li>
+								<li class="services-content-item service-credit">
+									<h3>Кредит</h3>
+									<p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
+								</li>
+							</ul>
+						</section>
+					</div>
 				</div>
 
 				<div class="center-wrapper brands-wrapper">
@@ -334,11 +342,13 @@
 		<div class="overlay-contact-map">
 			<section class="modal modal-contact-map">
 				<h2 class="visually-hidden">Мы на карте города</h2>
-				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaea0aee5b09a112d48cbfd2fad5d61163834a02ed5d331611422d95da24e007b&amp;source=constructor"></iframe><!--  width="960" height="559" frameborder="0"-->
+				<!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaea0aee5b09a112d48cbfd2fad5d61163834a02ed5d331611422d95da24e007b&amp;source=constructor"></iframe> width="960" height="559" frameborder="0"-->
 				<img src="img/map-big.jpg" alt="Россия, г. Москва, ул. Строителей, 15" width="960" height="559">
 				<button type="button" class="modal-close">Закрыть</button>
 			</section>
 		</div>
+
+		<script src="js/script.js"></script>
 
 	</body>
 </html>
