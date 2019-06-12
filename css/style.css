@@ -1011,6 +1011,12 @@
 
 			.services-wrapper {
 				width: 100;
+
+				margin-top: 0;
+				margin-right: 0;
+				margin-bottom: 94px;
+				margin-left: 0;
+
 				padding-top: 69px;
 				padding-right: 0;
 				padding-bottom: 69px;
@@ -1163,12 +1169,9 @@
 				letter-spacing: 0.012em;
 				color: #000000;
 			}
+
 			.services-content-item p {
-				margin: 0;
-				padding-top: 0;
-				padding-right: 333px;
-				padding-bottom: 0;
-				padding-left: 0;
+				margin: 0;			
 
 				font-family: "Open Sans", Verdana, Geneva, sans-serif;
 				font-weight: 300;
@@ -1185,17 +1188,151 @@
 				background-size: 136px 164px;
 			}
 
+			.service-delivery p {
+				padding-top: 0;
+				padding-right: 333px;
+				padding-bottom: 0;
+				padding-left: 0;
+			}			
+
 			.service-warranty {
-				background-image: url("../img/warrenty.svg");
+				background-image: url("../img/warranty.svg");
 				background-repeat: no-repeat;
-				background-position: right 67px top 85px;
+				background-position: right 45px top 61px;
 				background-size: 171px 195px;
 			}
 
+			.service-warranty p {
+				padding-top: 0;
+				padding-right: 313px;
+				padding-bottom: 0;
+				padding-left: 0;
+			}
 
+			.service-credit {
+				background-image: url("../img/credit.svg");
+				background-repeat: no-repeat;
+				background-position: right 69px top 61px;
+				background-size: 156px 188px;
+			}
 
+			.service-credit p {
+				padding-top: 0;
+				padding-right: 330px;
+				padding-bottom: 0;
+				padding-left: 0;
+			}
 
 		/***** end block [services] for {index.html} *****/
+
+		/***** begin block [brands] for {index.html} *****/
+
+			.brand-list {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+
+				padding: 0;
+				margin-top: 0;
+				margin-right: 0;
+				margin-bottom: 68px;
+				margin-left: 0;
+
+				list-style: none;
+			}
+
+			.brand-list a {
+				font-size: 0;
+			}
+
+			.brand-list img {
+				display: block;
+
+				margin: 0;
+				padding: 0;
+
+				filter: grayscale(1);
+				opacity: 0.2;
+			}
+
+			.brand-list img:hover {
+				filter: grayscale(0);
+				opacity: 1;
+			}
+
+
+		/***** end block [brands] for {index.html} *****/
+
+		/***** begin block [company-info] for {index.html} *****/
+
+			.company-info {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+
+				box-sizing: border-box;
+				padding-top: 60px;
+				padding-right: 0;
+				padding-bottom: 0;
+				padding-left: 0;
+			}
+
+			.page-about-us, 
+			.page-contacts {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				position: relative;
+
+				width: 48.2759%;
+			}
+
+			.page-about-us::before, 
+			.page-contacts::before {
+				position: absolute;
+				display: block;
+				top: -53px;
+				left: 0;
+
+				width: 80px;
+				height: 7px;
+
+				background-color: #000000;
+				
+				content: "";
+			}
+
+			.page-about-us h3, 
+			.page-contacts h3 {
+				margin-top: 0;
+				margin-right: 0;
+				margin-bottom: 42px;
+				margin-left: 0;
+
+				padding: 0;
+
+
+				font-family: "Gilroy", Arial, Helvetica, sans-serif;
+				font-weight: 900;
+				font-size: 47px;
+				line-height: 48px;
+				letter-spacing: 0.01em;
+				color: #000000;
+			}
+
+			.page-about-us p, 
+			.page-contacts p {
+				margin: 0;
+				padding: 0;
+
+				font-family: "Open Sans", Verdana, Geneva, sans-serif;
+				font-weight: 300;
+				font-size: 15px;
+				line-height: 30px;
+				color: #000000;
+			}
+
+		/***** end block [company-info] for {index.html} *****/
 
 	/***** end block [main.page-container] for {index.html} *****/
 
