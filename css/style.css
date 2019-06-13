@@ -20,7 +20,7 @@
 	font-family: "Gilroy";
 	src: 		url("../fonts/gilroyextrabold.woff2") format("woff2"),
 				url("../fonts/gilroyextrabold.woff") format("woff");
-	font-weight: 900;
+	font-weight: 800;
 	font-style: normal;
 }
 
@@ -69,7 +69,7 @@
 		background-size: 100% 8px;
 
 		font-family: "Gilroy", Arial, Helvetica, sans-serif;
-		font-weight: 900;
+		font-weight: 800;
 		text-decoration: none;
 		text-transform: uppercase;
 		color: #000000;
@@ -422,7 +422,7 @@
 					align-items: flex-start;
 					position: relative;
 
-					width: 51.9231%;					
+					width: 51.9231%;			
 					padding: 0;
 
 					margin: 0;
@@ -440,7 +440,7 @@
 					padding-left: 0;
 
 					font-family: "Gilroy", Arial, Helvetica, sans-serif;
-					font-weight: 900;
+					font-weight: 800;
 					text-decoration: none;
 					color: #000000;
 					text-transform: uppercase;
@@ -474,6 +474,16 @@
 					content: "";
 				}
 
+				.site-menu .catalog-list-conrol:hover {
+					color: rgba(0, 0, 0, 0.6);
+					opacity: 1;
+				}
+
+				.site-menu .catalog-list-conrol:active {
+					color: rgba(0, 0, 0, 0.3);
+					opacity: 1;
+				}
+
 				.dropdown-list {
 					position: absolute;
 					top: 24px;
@@ -489,7 +499,6 @@
 					box-sizing: border-box;
 
 					background-color: #f7e296;
-
 				}				
 
 				.site-navigation {
@@ -552,7 +561,7 @@
 
 				.header-delivery {
 					font-family: "Gilroy", Arial, Helvetica, sans-serif;
-					font-weight: 900;
+					font-weight: 800;
 					text-decoration: none;
 					color: #000000;
 					text-transform: uppercase;
@@ -568,7 +577,7 @@
 					padding-left: 0;
 
 					font-family: "Gilroy", Arial, Helvetica, sans-serif;
-					font-weight: 900;
+					font-weight: 800;
 					text-decoration: none;
 					color: #000000;
 					text-transform: uppercase;
@@ -593,7 +602,7 @@
 					margin-left: 0;
 
 					font-family: "Gilroy", Arial, Helvetica, sans-serif;
-					font-weight: 900;
+					font-weight: 800;
 					text-decoration: none;
 					color: #000000;
 					text-transform: uppercase;
@@ -614,10 +623,7 @@
 		/***** begin block [product-slider] for {index.html} *****/
 
 			.promo-wrapper {
-				padding-top: 0;
-				padding-right: 0;
-				padding-bottom: 103px;
-				padding-left: 0;
+				min-height: 594px;
 			}
 
 			.slider-container {
@@ -765,7 +771,7 @@
 				margin: 0;
 
 				font-family: "Gilroy", Arial, Helvetica, sans-serif;
-				font-weight: 900;
+				font-weight: 800;
 				font-size: 47px;
 				line-height: 56px;
 				color: #000000;
@@ -935,7 +941,7 @@
 				width: 100%;
 
 				font-family: "Gilroy", Arial, Helvetica, sans-serif;
-				font-weight: 900;
+				font-weight: 800;
 				font-size: 18px;
 				line-height: 24px;
 				color: #000000;
@@ -1104,7 +1110,7 @@
 				background-size: 100% 8px;
 
 				font-family: "Gilroy", Arial, Helvetica, sans-serif;
-				font-weight: 900;
+				font-weight: 800;
 				font-size: 18px;
 				line-height: 24px;
 				letter-spacing: 3.6px;
@@ -1147,10 +1153,10 @@
 				justify-content: flex-start;
 
 				box-sizing: border-box;
-				padding-top: 73px;
+				padding-top: 74px;
 				padding-right: 0;
 				padding-bottom: 0;
-				padding-left: 118px;
+				padding-left: 116px;
 			}
 
 			.services-content-item.active {
@@ -1166,10 +1172,10 @@
 				padding: 0;
 
 				font-family: "Gilroy", Arial, Helvetica, sans-serif;
-				font-weight: 900;
+				font-weight: 800;
 				font-size: 47px;
 				line-height: 48px;
-				letter-spacing: 0.7px;
+				letter-spacing: 1.1px;
 				color: #000000;
 			}
 
@@ -1181,7 +1187,7 @@
 				font-size: 15px;
 				line-height: 30px;
 				color: #000000;
-				letter-spacing: 0.2px;
+				letter-spacing: 0.3px;
 			}
 
 			.service-delivery {
@@ -1221,7 +1227,7 @@
 
 			.service-credit p {
 				padding-top: 0;
-				padding-right: 330px;
+				padding-right: 325px;
 				padding-bottom: 0;
 				padding-left: 0;
 			}
@@ -1317,7 +1323,7 @@
 
 
 				font-family: "Gilroy", Arial, Helvetica, sans-serif;
-				font-weight: 900;
+				font-weight: 800;
 				font-size: 47px;
 				line-height: 48px;
 				letter-spacing: 0.5px;
@@ -1384,7 +1390,7 @@
 
 
 				font-family: "Gilroy", Arial, Helvetica, sans-serif;
-				font-weight: 900;
+				font-weight: 800;
 				font-size: 16px;
 				line-height: 40px;
 				text-decoration: none;
@@ -1418,7 +1424,7 @@
 
 				text-align: center;
 				font-family: "Gilroy", Arial, Helvetica, sans-serif;
-				font-weight: 900;
+				font-weight: 800;
 				font-size: 18px;
 				line-height: 24px;
 				letter-spacing: 3.7px;
@@ -1447,6 +1453,7 @@
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
+			position: relative;
 
 			padding-top: 60px;
 			padding-right: 0;
@@ -1496,6 +1503,128 @@
 			line-height: 30px;
 			color: #ffffff;
 			text-decoration: none;
+		}
+
+		.page-footer::before {
+			display: block;
+			position: absolute;
+			bottom: 79px;
+			left: 0;
+
+			width: 80px;
+			height: 7px;
+
+			background-color: #ffc600;
+
+			content: "";
+		}
+
+		.footer-services {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+
+			padding-top: 76px;
+			padding-right: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+
+		}
+
+		.footer-services ul {
+			display: flex;
+			flex-direction: row;			
+
+			margin: 0;
+			padding: 0;
+
+			list-style: none;
+		}
+
+		.footer-services .footer-services-list {
+			justify-content: space-between;
+
+			padding-top: 0;
+			padding-right: 5px;
+			padding-bottom: 64px;
+			padding-left: 7px;
+			box-sizing: border-box;
+		}
+
+		.footer-services-list a {
+
+			padding-top: 0;
+			padding-right: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+
+			font-family: "Gilroy", Arial, Helvetica, sans-serif;
+			font-weight: 800;
+			font-size: 18px;
+			line-height: 24px;
+			color: #ffffff;
+			letter-spacing: 3.6px;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+
+		.footer-services-list a:hover {
+			opacity: 0.6;
+		}
+
+		.footer-services-list a:active {
+			opacity: 0.3;
+		}
+
+		.footer-services .footer-social-list {
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.footer-social-list li {
+			margin-top: 0;
+			margin-right: 22px;
+			margin-bottom: 0;
+			margin-left: 0;
+		}
+
+		.footer-social-list li:last-child {
+			margin-right: 0;
+		}
+
+		.footer-social-list a {
+			display: block;
+			width: 32px;
+			height: 32px;
+
+			border-radius: 50%;
+			background-color: transparent;
+			opacity: 0.3;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 32px 32px;
+
+			font-size: 0;
+		}
+
+		.social-fb {
+			background-image: url("../img/social-fb.svg");
+		}
+
+		.social-inst {
+			background-image: url("../img/social-inst.svg");
+		}
+
+		.social-tw {
+			background-image: url("../img/social-tw.svg");
+		}
+
+		.footer-social-list a:hover {
+			opacity: 0.6;
+		}
+
+		.footer-social-list a:active {
+			opacity: 0.1;
 		}
 
 		.footer-control {
