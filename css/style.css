@@ -75,7 +75,7 @@
 		color: #000000;
 		font-size: 18px;
 		line-height: 24px;
-		letter-spacing: 0.2em;
+		letter-spacing: 3.6px;
 	}
 
 	.button:hover {
@@ -217,13 +217,14 @@
 					padding-top: 7px;
 					padding-right: 10px;
 					padding-bottom: 8px;
-					padding-left: 38px;
+					padding-left: 37px;
 
 					font-family: "Open Sans", Verdana, Geneva, sans-serif;
 					font-weight: 300;
 					color: rgba(0, 0, 0, 0.3);
 					font-size: 15px;
 					line-height: 30px;
+					letter-spacing: 0.15px;
 
 					border: 2px solid transparent;
 					background-color: transparent;
@@ -257,7 +258,7 @@
 					color: rgba(0, 0, 0, 1);
 					font-size: 15px;
 					line-height: 30px;
-					letter-spacing: 0.01em;
+					letter-spacing: 0.15px;
 
 					border: 2px solid #000000;
 					background-color: transparent;
@@ -317,7 +318,7 @@
 					font-size: 15px;
 					line-height: 30px;
 					text-decoration: none;
-					letter-spacing: 0.01em;
+					letter-spacing: 0.15px;
 				}
 
 				.sign-in::before {
@@ -366,7 +367,7 @@
 					color: rgba(0, 0, 0, 1);
 					font-size: 15px;
 					line-height: 30px;
-					letter-spacing: 0.01em;
+					letter-spacing: 0.15px;
 				}
 
 				.goods-compare {
@@ -445,7 +446,7 @@
 					text-transform: uppercase;
 					font-size: 18px;
 					line-height: 24px;
-					letter-spacing: 0.2em;
+					letter-spacing: 3.6px;
 				}
 
 				.catalog-list-conrol::before {
@@ -500,7 +501,7 @@
 					font-weight: 300;
 					font-size: 15px;
 					line-height: 36px;
-					letter-spacing: 0.01em;
+					letter-spacing: 0.15px;
 					text-transform: none;
 				}
 
@@ -535,7 +536,7 @@
 					font-weight: 300;
 					font-size: 15px;
 					line-height: 36px;
-					letter-spacing: 0.01em;
+					letter-spacing: 0.15px;
 					text-transform: none;
 					text-decoration: none;
 					color: #000000;
@@ -557,7 +558,7 @@
 					text-transform: uppercase;
 					font-size: 18px;
 					line-height: 24px;
-					letter-spacing: 0.2em;
+					letter-spacing: 3.6px;
 				}
 
 				.header-warrenty {
@@ -573,7 +574,7 @@
 					text-transform: uppercase;
 					font-size: 18px;
 					line-height: 24px;
-					letter-spacing: 0.2em;
+					letter-spacing: 3.6px;
 				}
 
 				.header-contacts-wrapper {
@@ -598,7 +599,7 @@
 					text-transform: uppercase;
 					font-size: 18px;
 					line-height: 24px;
-					letter-spacing: 0.2em;
+					letter-spacing: 3.6px;
 					text-align: right;
 				}				
 
@@ -693,9 +694,7 @@
 				flex-direction: row;
 
 				width: 100%;
-			}
-
-			
+			}			
 
 			.product-slide-item.active {
 				display: flex;
@@ -770,7 +769,7 @@
 				font-size: 47px;
 				line-height: 56px;
 				color: #000000;
-				letter-spacing: 0.015em;
+				letter-spacing: 0.5px;/**/
 			}
 
 			.product-slide-item:nth-of-type(1) h3{
@@ -802,7 +801,7 @@
 				font-weight: 300;
 				font-size: 15px;
 				line-height: 30px;
-				letter-spacing: 0.01em;
+				letter-spacing: 0.15px;
 				color: #000000;
 			}
 
@@ -856,6 +855,8 @@
 				font-weight: 300;
 				font-size: 13px;
 				line-height: 20px;
+				color: #000000;
+				letter-spacing: 0.13px;
 			}
 
 			.product-description-header th:nth-of-type(1) {
@@ -880,7 +881,8 @@
 				font-weight: 300;
 				font-size: 36px;
 				line-height: 48px;
-				letter-spacing: 0.01em;
+				color: #000000;
+				letter-spacing: 0.36px;
 			}
 
 		/***** end block [product-slider] for {index.html} *****/
@@ -937,7 +939,7 @@
 				font-size: 18px;
 				line-height: 24px;
 				color: #000000;
-				letter-spacing: 0.01em;
+				letter-spacing: 0.2px;
 				text-decoration: none;
 			}
 
@@ -1011,7 +1013,7 @@
 		/***** begin block [services] for {index.html} *****/
 
 			.services-wrapper {
-				width: 100;
+				width: 100%;
 
 				margin-top: 0;
 				margin-right: 0;
@@ -1073,7 +1075,7 @@
 
 				margin-top: 0;
 				margin-right: 0;
-				margin-bottom: 25px;
+				margin-bottom: 24px;
 				margin-left: 0;
 			}
 
@@ -1092,7 +1094,7 @@
 				padding-top: 8px;
 				padding-right: 0;
 				padding-bottom: 8px;
-				padding-left: 0px;
+				padding-left: 5px;
 
 				border: none;
 				background-color: transparent;
@@ -1105,7 +1107,7 @@
 				font-weight: 900;
 				font-size: 18px;
 				line-height: 24px;
-				letter-spacing: 0.2em;
+				letter-spacing: 3.6px;
 				color: #000000;
 				text-transform: uppercase;
 				cursor: pointer;
@@ -1131,7 +1133,7 @@
 				display: flex;
 				flex-direction: row;
 
-				width: : calc(100% - 284px);
+				width: calc(100% - 284px);
 				margin: 0;
 				padding: 0;
 
@@ -1167,7 +1169,7 @@
 				font-weight: 900;
 				font-size: 47px;
 				line-height: 48px;
-				letter-spacing: 0.012em;
+				letter-spacing: 0.7px;
 				color: #000000;
 			}
 
@@ -1179,7 +1181,7 @@
 				font-size: 15px;
 				line-height: 30px;
 				color: #000000;
-				letter-spacing: 0.013em;
+				letter-spacing: 0.2px;
 			}
 
 			.service-delivery {
@@ -1274,7 +1276,7 @@
 				box-sizing: border-box;
 				padding-top: 59px;
 				padding-right: 0;
-				padding-bottom: 0;
+				padding-bottom: 82px;
 				padding-left: 0;
 			}
 
@@ -1286,14 +1288,14 @@
 				align-items: flex-start;
 				position: relative;
 
-				width: 48.2759%;
+				width: 48.2759%;/**/
 			}
 
 			.page-about-us::before, 
 			.page-contacts::before {
 				position: absolute;
 				display: block;
-				top: -53px;
+				top: -52px;
 				left: 0;
 
 				width: 80px;
@@ -1318,7 +1320,7 @@
 				font-weight: 900;
 				font-size: 47px;
 				line-height: 48px;
-				letter-spacing: 0.01em;
+				letter-spacing: 0.5px;
 				color: #000000;
 			}
 
@@ -1332,10 +1334,13 @@
 				font-weight: 300;
 				font-size: 15px;
 				line-height: 30px;
+				letter-spacing: 0.13px;
 				color: #000000;
 			}
 
 			.page-about-us p {
+				box-sizing: border-box;
+
 				padding-top: 0;
 				padding-right: 85px;
 				padding-bottom: 30px;
@@ -1343,20 +1348,25 @@
 			}
 
 			.page-about-us p:nth-of-type(2) {
+				padding-right: 95px;
 				padding-bottom: 66px;
+
+				letter-spacing: -0.15px;
 			}
 
 			.page-contacts p {
 				padding-top: 0;
 				padding-right: 20px;
-				padding-bottom: 35px;
+				padding-bottom: 39px;
 				padding-left: 0;
+
+				letter-spacing: 0.1px;
 			}
 
 			.partnership {
 				margin-top: 0;
 				margin-right: 0;
-				margin-bottom: 45px;
+				margin-bottom: 54px;
 				padding: 0;
 
 				list-style: none;
@@ -1378,6 +1388,8 @@
 				font-size: 16px;
 				line-height: 40px;
 				text-decoration: none;
+				letter-spacing: 0.16px;
+
 				color: #000000;
 			}
 
@@ -1401,18 +1413,239 @@
 				width: 260px;
 				padding-top: 8px;
 				padding-right: 0;
-				padding-left: 8px;
-				padding-left: 0;
+				padding-bottom: 8px;
+				padding-left: 3px;
 
 				text-align: center;
+				font-family: "Gilroy", Arial, Helvetica, sans-serif;
+				font-weight: 900;
+				font-size: 18px;
+				line-height: 24px;
+				letter-spacing: 3.7px;
+				color: #000000;
 			}
 
+			.button-big-map {
+				margin-bottom: 69px;
 
-
-
+				font-size: 0;
+			}
 
 		/***** end block [company-info] for {index.html} *****/
 
 	/***** end block [main.page-container] for {index.html} *****/
+
+	/***** begin block [page-footer] for {index.html and catalog.html} *****/
+
+		.footer-wrapper {
+			width: 100%;
+
+			background-color: #464646;
+		}
+
+		.page-footer {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			padding-top: 60px;
+			padding-right: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+		}
+
+		.column-wrapper {
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		.footer-logo, .footer-profile {
+			width: 31.0345%;
+		}
+
+		.footer-profile {
+			align-items: flex-end;
+		}
+
+		.footer-services {
+			width: 37.931%;
+		}
+
+		.site-footer-logotype {
+			margin-top: 5px;
+			margin-right: 0;
+			margin-bottom: 30px;
+			margin-left: 0;
+
+			font-size: 0;
+		}
+
+		.site-footer-logotype:hover img {
+			opacity: 0.6;
+		}
+
+		.site-footer-logotype:active img {
+			opacity: 0.3;
+		}
+
+		.footer-adress {
+			font-family: "Open Sans", Verdana, Geneva, sans-serif;
+			font-weight: 300;
+			font-size: 15px;
+			line-height: 30px;
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		.footer-control {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			flex-wrap: wrap;
+
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 34px;
+			margin-left: 0;
+
+			padding: 0;
+
+			list-style: none;
+		}
+
+		.footer-control a {
+			display: block;
+			position: relative;
+						
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 0;
+			margin-left: 64px;
+
+			padding: 0;
+
+			font-family: "Open Sans", Verdana, Geneva, sans-serif;
+			font-weight: 300;
+			font-size: 15px;
+			line-height: 36px;
+			color: rgba(255, 255, 255, 0.7);
+			text-decoration: none;
+		}
+
+		.footer-control .footer-sign-in {
+			margin-left: 0;
+		}
+
+		.footer-sign-in::before {
+			display: block;
+			position: absolute;
+			top: 12px;
+			left: -26px;
+
+			width: 13px;
+			height: 12px;
+
+			background-image: url("../img/icon-footer-user.svg");
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 13px 12px;
+
+			content: "";
+		}
+
+		.footer-compare::before {
+			display: block;
+			position: absolute;
+			top: 14px;
+			left: -20px;
+
+			width: 10px;
+			height: 10px;
+
+			background-image: url("../img/icon-footer-compare.svg");
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 10px 10px;
+
+			content: "";
+		}
+
+		.footer-cart::before {
+			display: block;
+			position: absolute;
+			top: 12px;
+			left: -22px;
+
+			width: 12px;
+			height: 12px;
+
+			background-image: url("../img/icon-footer-cart.svg");
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 12px 12px;
+
+			content: "";
+		}
+
+		.footer-control a:hover {
+			color: rgba(255, 255, 255, 1);
+		}
+
+		.footer-control a:active {
+			color: rgba(255, 255, 255, 0.3);
+		}
+
+		.footer-control a:hover::before {
+			opacity: 0.6;
+		}
+
+		.footer-control a:active::before {
+			opacity: 0.3;
+		}
+
+		.contact-phone {
+			padding-top: 0;
+			padding-right: 0;
+			padding-bottom: 62px;
+			padding-left:0;
+
+			font-family: "Open Sans", Verdana, Geneva, sans-serif;
+			font-weight: 300;
+			font-size: 15px;
+			line-height: 30px;
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		.footer-develoders {
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 66px;
+			margin-left: 0;
+
+			font-size: 0;
+		}
+
+		.footer-develoders img {
+			display: block;
+
+			margin: 0;
+			padding: 0;
+		}
+
+		.footer-develoders:hover img {
+			opacity: 0.6;
+		}
+
+		.footer-develoders:active img {
+			opacity: 0.3;
+		}
+
+
+
+	/***** end block [page-footer] for {index.html and catalog.html} *****/
+
+
 
 /***** end block [page-wrapper] for {index.html and catalog.html} *****/
