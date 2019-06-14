@@ -104,6 +104,8 @@
 			} else {
 				try {
 					localStorage.setItem("user-name", messageAuthorName.value);
+				} catch(err) {
+
 				}
 			}
 		};
@@ -113,6 +115,24 @@
 		};
 
 	/* ----- begin block [validate write-us form] in file {index.html} -----*/
+
+	/* ----- begin block [show map modal] in file {index.html and catalog.html} -----*/
+
+		var showMapButtons = document.querySelectorAll(".button-show-map");
+		var overlayModalMap = document.querySelector(".overlay-contact-map");
+
+		function showMapModal(event) {
+			event.preventDefault();
+			if (overlayModalMap) {
+				overlayModalMap.classList.add("opened");
+			};
+		}
+
+		for (var i=0; i < showMapButtons.length; i++) {
+			showMapButtons[i].addEventListener("click", showMapModal);
+		};
+
+	/* ----- begin block [show map modal] in file {index.html and catalog.html} -----*/
 
 	/* ----- begin block [modal-close] in file {index.html and catalog.html} -----*/
 
