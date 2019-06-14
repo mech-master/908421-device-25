@@ -66,7 +66,7 @@
 						</div>
 						
 						<div class="header-contacts-wrapper">
-							<a href="#" class="header-contacts">Контакты</a>
+							<a href="#" class="button-show-map header-contacts">Контакты</a>
 						</div>
 					</div>
 					
@@ -267,7 +267,7 @@
 						<div class="page-contacts">
 							<h3>Контакты</h3>
 							<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-							<a href="#" class="button-big-map">
+							<a href="#" class="button-show-map button-big-map">
 								<img src="img/map-mini.jpg" alt="Россия, г. Москва, ул. Строителей, 15" width="560" height="222">
 								Мы на карте города
 							</a>
@@ -286,7 +286,7 @@
 								<img src="img/footer-logo.svg" alt="Логотип магазина Device" width="163" height="35">
 								Логотип магазина Device
 							</a>
-							<a href="#" class="footer-adress">г. Москва, ул. Строителей, 15</a>
+							<a href="#" class="button-show-map footer-adress">г. Москва, ул. Строителей, 15</a>
 						</div>
 
 						<div class="column-wrapper footer-services">
@@ -320,23 +320,23 @@
 
 		</div>
 
-		<div class="overlay-write-us">
+		<div class="overlay-modal overlay-write-us">
 			<section class="modal modal-write-us">
 				<h2 class="visually-hidden">Напишите нам</h2>
-				<form method="post" action="echo.htmlacademy.ru">
+				<form method="post" action="https://echo.htmlacademy.ru" class="write-us-form">
 					<div class="user-data-wrapper">
 						<div class="user-data-column">
 							<label for="input-user-name">Ваше имя:</label>
-							<input type="text" name="user-name" id="input-user-name" class="message-user-name">
+							<input type="text" name="user-name" id="input-user-name" class="message-user-name" placeholder="Имя Фамилия" required>
 						</div>
 						<div class="user-data-column">
 							<label for="input-user-email">Ваш e-mail:</label>
-							<input type="text" name="user-email" id="input-user-email" class="message-user-email">
+							<input type="text" name="user-email" id="input-user-email" class="message-user-email" placeholder="email@example.com" required>
 						</div>
 					</div>
 					<div class="message-text-wrapper">
 						<label for="textarea-message-text">Текст письма:</label>
-						<textarea name="message-text" id="textarea-message-text"></textarea>
+						<textarea name="message-text" id="textarea-message-text" class="message-content" placeholder="В свободной форме" ></textarea>
 					</div>
 					<button type="submit" class="button send-message">Отправить</button>
 				</form>
@@ -344,7 +344,7 @@
 			</section>
 		</div>
 
-		<div class="overlay-contact-map">
+		<div class="overlay-modal overlay-contact-map">
 			<section class="modal modal-contact-map">
 				<h2 class="visually-hidden">Мы на карте города</h2>
 				<!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaea0aee5b09a112d48cbfd2fad5d61163834a02ed5d331611422d95da24e007b&amp;source=constructor"></iframe> width="960" height="559" frameborder="0"-->
