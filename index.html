@@ -5,7 +5,7 @@
 		<title>HTML Academy: Девайс</title>
 		<!--<link rel="stylesheet" type="text/css" href="css/wrappers.css">  -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-mini.css">
 	</head>
 	<body>
 
@@ -23,7 +23,8 @@
 						<div class="serching-wrapper">
 							<form method="get" action="https://echo.htmlacademy.ru" class="serching-form">
 								<span class="serching-icon"></span>
-								<input type="text" name="searching-string" class="searching-string" value="Поиск по сайту">
+								<label for="searching-string-input" class="visually-hidden">Окно ввода поисковой строки</label>
+								<input type="text" id="searching-string-input" name="searching-string" class="searching-string"  value="Поиск по сайту">
 								<button type="submit" class="serching-button">Найти</button>
 							</form>
 						</div>
@@ -213,25 +214,27 @@
 								<li class="service-control-item active">
 									<button type="button" class="service-button button-delivery">Доставка</button>
 								</li>
-								<li class="service-control-item">
+								<li class="service-control-item ">
 									<button type="button" class="service-button button-warrenty">Гарантия</button>
 								</li>
-								<li class="service-control-item">
+								<li class="service-control-item ">
 									<button type="button" class="service-button button-credit">Кредит</button>
 								</li>
 							</ul>
 							<ul class="services-content">
 								<li class="services-content-item service-delivery active">
 									<h3 class="service-title">Доставка</h3>
-									<p class="service-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+									<p class=" service-description service-delivery-string">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
 								</li>
 								<li class="services-content-item service-warranty ">
 									<h3 class="service-title">Гарантия</h3>
-									<p class="service-description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. <br> Товар, не дом, конечно же.</p>
+									<p class="service-description service-warranty-string">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. </p>
+									<p class="service-description service-warranty-string">Товар, не дом, конечно же.</p>
 								</li>
 								<li class="services-content-item service-credit ">
 									<h3 class="service-title">Кредит</h3>
-									<p class="service-description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
+									<p class="service-description service-credit-string">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. 
+									<span class="service-credit-substring">Выгодные для нашего банка, разумеется.</span></p>
 								</li>
 							</ul>
 						</section>
@@ -242,10 +245,34 @@
 					<section class="brands">
 						<h2 class="visually-hidden">Популярные бренды</h2>
 						<ul class="brand-list">
-							<li><a href="#" class="brand-button"><img src="img/brand-dji.jpg" alt="Бренд DJI" width="260" height="100" class="brand-image">Бренд DJI</a></li>
-							<li><a href="#" class="brand-button"><img src="img/brand-gadgets.jpg" alt="Бренд Gadjest" width="260" height="100" class="brand-image">Бренд Gadjest</a></li>
-							<li><a href="#" class="brand-button"><img src="img/brand-gopro.jpg" alt="Бренд GoPro" width="260" height="100" class="brand-image">Бренд GoPro</a></li>
-							<li><a href="#" class="brand-button"><img src="img/brand-vive.jpg" alt="Бренд Vive" width="260" height="100" class="brand-image">Бренд Vive</a></li>
+							<li class="brand-item">
+								<a href="#" class="brand-button">
+									<img src="img/brand-dji-grey.jpg" alt="Логотип DJI в оттенках серого" class="brand-image-grey">
+									<img src="img/brand-dji.jpg" alt="Логотип DJI цветной" class="brand-image-color">
+									Бренд DJI
+								</a>
+							</li>
+							<li class="brand-item">
+								<a href="#" class="brand-button">
+									<img src="img/brand-gadgets-grey.jpg" alt="Логотип SpGadgest в оттенках серого" class="brand-image-grey">
+									<img src="img/brand-gadgets.jpg" alt="Логотип SpGadgets цветной" class="brand-image-color">
+									Бренд SpGadgets
+								</a>
+							</li>
+							<li class="brand-item">
+								<a href="#" class="brand-button">
+									<img src="img/brand-gopro-grey.jpg" alt="Логотип GoPro в оттенках серого" class="brand-image-grey">
+									<img src="img/brand-gopro.jpg" alt="Логотип GoPro цветной" class="brand-image-color">
+									Бренд GoPro
+								</a>
+							</li>
+							<li class="brand-item">
+								<a href="#" class="brand-button">
+									<img src="img/brand-vive-grey.jpg" alt="Логотип Vive в оттенках серого" class="brand-image-grey">
+									<img src="img/brand-vive.jpg" alt="Логотип Vive цветной" class="brand-image-color">
+									Бренд Vive
+								</a>
+							</li>
 						</ul>
 					</section>
 				</div>
@@ -267,7 +294,7 @@
 						<div class="page-contacts">
 							<h3 class="company-info-title">Контакты</h3>
 							<p class="contacts-description">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-							<a href="#" class="button-show-map button-big-map">
+							<a href="https://yandex.ru/maps/213/moscow/?ll=37.529654%2C55.686980&mode=search&sll=37.606918%2C55.770127&sspn=0.123253%2C0.039530&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%B3.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB.%20%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%2C%2015&z=17" class="button-show-map button-big-map" target="_blank">
 								<img src="img/map-mini.jpg" alt="Россия, г. Москва, ул. Строителей, 15" width="560" height="222">
 								Мы на карте города
 							</a>
@@ -280,41 +307,50 @@
 
 			<div class="footer-wrapper">
 				<div class="center-wrapper">
+
 					<footer class="page-footer">
-						<div class="column-wrapper footer-logo">
+						<div class="row-wrapper footer-logo">
 							<a href="#" class="site-footer-logotype">
 								<img src="img/footer-logo.svg" alt="Логотип магазина Device" width="163" height="35" class="footer-logo-image">
 								Логотип магазина Device
 							</a>
-							<a href="#" class="button-show-map footer-adress">г. Москва, ул. Строителей, 15</a>
+							<ul class="footer-control">
+								<li>
+									<div class="unregistered-user">
+										<a href="#" class="footer-control-button footer-sign-in">Войти</a>
+									</div>
+								</li>
+								<li><a href="#" class="footer-control-button footer-compare">Сравнить</a></li>
+								<li><a href="#" class="footer-control-button footer-cart">Корзина</a></li>
+							</ul>
+							
 						</div>
 
-						<div class="column-wrapper footer-services">
+						<div class="row-wrapper footer-services">
+							<a href="https://yandex.ru/maps/213/moscow/?ll=37.529654%2C55.686980&mode=search&sll=37.606918%2C55.770127&sspn=0.123253%2C0.039530&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%B3.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB.%20%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%2C%2015&z=17" class="button-show-map footer-adress" target="_blank">г. Москва, ул. Строителей, 15</a>
 							<ul class="footer-services-list">
-								<li><a href="#" class="footer-services-button">Доставка</a></li>
-								<li><a href="#" class="footer-services-button">Гарантия</a></li>
-								<li><a href="#" class="footer-services-button">Контакты</a></li>
+								<li class="footer-services-item"><a href="#" class="footer-services-button">Доставка</a></li>
+								<li class="footer-services-item"><a href="#" class="footer-services-button">Гарантия</a></li>
+								<li class="footer-services-item"><a href="#" class="footer-services-button">Контакты</a></li>
 							</ul>
+							<a href="tel:74954959595" class="contact-phone">Тел.: +7 (495) 495-95-95</a>							
+						</div>
+
+						<div class="row-wrapper footer-links">
+							<div class="decoration-line"></div>
 							<ul class="footer-social-list">
 								<li class="footer-social-item"><a href="#" class="social-button social-fb">Мы на фейсбук</a></li>
 								<li class="footer-social-item"><a href="#" class="social-button social-inst">Мы в инстаграмм</a></li>
 								<li class="footer-social-item"><a href="#" class="social-button social-tw">Мы в твиттере</a></li>
 							</ul>
-						</div>
-
-						<div class="column-wrapper footer-profile">
-							<ul class="footer-control">
-								<li><a href="#" class="footer-control-button footer-sign-in">Войти</a></li>
-								<li><a href="#" class="footer-control-button footer-compare">Сравнить</a></li>
-								<li><a href="#" class="footer-control-button footer-cart">Корзина</a></li>
-							</ul>
-							<a href="tel:74954959595" class="contact-phone">Тел.: +7 (495) 495-95-95</a>
+							
 							<a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-developers">
 								<img src="img/logo-html.svg" width="27" height="35" alt="Разработчики сайта" class="developers-image">
 								Разработчики сайта HTMLAcademy
 							</a>
 						</div>
 					</footer>
+
 				</div>
 			</div>
 
@@ -348,12 +384,12 @@
 			<section class="modal modal-contact-map">
 				<h2 class="visually-hidden">Мы на карте города</h2>
 				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaea0aee5b09a112d48cbfd2fad5d61163834a02ed5d331611422d95da24e007b&amp;source=constructor" class="interactive-map"></iframe>
-				<img src="img/map-big.jpg" alt="Россия, г. Москва, ул. Строителей, 15" width="960" height="559" class="static-map">
+				<a href="https://yandex.ru/maps/213/moscow/?ll=37.529654%2C55.686980&mode=search&sll=37.606918%2C55.770127&sspn=0.123253%2C0.039530&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%B3.%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB.%20%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%2C%2015&z=17" class="static-map-button" target="_blank"><img src="img/map-big.jpg" alt="Россия, г. Москва, ул. Строителей, 15" width="960" height="559" class="static-map-image"></a>
 				<button type="button" class="modal-close">Закрыть</button>
 			</section>
 		</div>
 
-		<script src="js/script.js"></script>
+		<script src="js/script-mini.js"></script>
 
 	</body>
 </html>

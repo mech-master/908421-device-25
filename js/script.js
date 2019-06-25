@@ -82,11 +82,9 @@
 					messageAuthorEmail.focus();
 				} else {
 					messageAuthorName.focus();
-				}
-
-			}
-
-		}
+				};
+			};
+		};
 
 		if (writeUsModalShowButton) {
 			writeUsModalShowButton.addEventListener("click", showWriteUsModal);
@@ -106,8 +104,8 @@
 					localStorage.setItem("user-name", messageAuthorName.value);
 				} catch(err) {
 
-				}
-			}
+				};
+			};
 		};
 
 		if (writeUsForm) {
@@ -126,7 +124,7 @@
 			if (overlayModalMap) {
 				overlayModalMap.classList.add("opened");
 			};
-		}
+		};
 
 		for (var i=0; i < showMapButtons.length; i++) {
 			showMapButtons[i].addEventListener("click", showMapModal);
@@ -156,8 +154,8 @@
 		window.addEventListener("keydown", function(){
 			if (event.keyCode === 27) {
 				closeModalWindow(event);
-			}
-		})
+			};
+		});
 
 	/* ----- end block [modal-close] in file {index.html and catalog.html} -----*/
 
